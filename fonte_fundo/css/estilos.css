@@ -1,0 +1,18 @@
+@font-face {
+    font-family: nana;
+    src: url(/images/Gildeon.otf)
+}
+
+body{
+    background: url('/images/shrek.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h1{
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    font-family: nana;
+    font-weight: none;
+}
