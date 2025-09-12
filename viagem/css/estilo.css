@@ -1,0 +1,77 @@
+.central{
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.13);
+    border-radius: 20px ;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.central #consumo{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+    font-size: 30px;
+
+}
+
+.central #distancia{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+   
+}
+
+.central #km {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-style: double;
+}
+
+
+.central #kml{
+    margin-bottom: 15px;
+    border-style: double;
+    border-radius: 5px;
+}
+
+.central #preco{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.central #preco2{ 
+    margin-bottom: 10px;
+    border-style: double;
+    border-radius: 5px;
+}
+.central #botao{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: rgb(100, 94, 94);
+    
+}
+
+.central #resultado {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.background-video {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
